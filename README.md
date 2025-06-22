@@ -169,4 +169,6 @@ pip install openai slack_sdk python-dotenv requests pandas pymupdf \
 ---
 # Download
 
+Projeto privado.
+
 🔗[https://github.com/alexandrefortes/Slack-DataMinder/blob/main/README.md](https://github.com/alexandrefortes/Slack-DataMinder/blob/main/README.md)
