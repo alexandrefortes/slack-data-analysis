@@ -2,7 +2,7 @@
 
 Autor: Alexandre Santana
 
-Ferramenta para **extrair**, **tratar** e **enriquecer** conversas do Slack, incluindo anexos (áudio, vídeo, imagens, documentos) e geração de resumo executivo em JSON.
+Estudo: **extrair**, **tratar** e **enriquecer** conversas do Slack (que o usuário já possui acesso), incluindo anexos (áudio, vídeo, imagens, documentos) e geração de resumo executivo em JSON.
 
 ---
 
@@ -97,7 +97,7 @@ O processo de enriquecimento semântico adiciona camadas de significado aos dado
 | `sqlparse`               | SQL format                      |
 | `pillow`, `imagehash`    | cache de imagens                |
 
-### Instalação rápida
+### Instalação
 
 ```bash
 pip install openai slack_sdk python-dotenv requests pandas pymupdf \
@@ -164,7 +164,7 @@ pip install openai slack_sdk python-dotenv requests pandas pymupdf \
 ## Observações finais
 
 - **Caching de imagens** usa *perceptual hash* (PIL + imagehash), pra economizar tokens em imagens iguais.
-- O pipeline foi escrito para utilidade imediata — sem arquitetura rebuscada.
+- O projeto é apenas um estudo, desenvolvido sem arquitetura rebuscada.
 
 ---
 # Download
